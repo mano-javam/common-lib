@@ -12,10 +12,11 @@ setuptools.setup(
     description="Install common lib for Python micro services",
     long_description_content_type="text/markdown",
     url='https://bitbucket-eng-sjc1.cisco.com/bitbucket/projects/CF-BPA/repos/common-python-library',
-    project_urls = {
+    project_urls={
         "Bug Tracker": "https://bitbucket-eng-sjc1.cisco.com/bitbucket/projects/CF-BPA/repos/common-python-library"
     },
     license='CISCO',
-    packages=['commonlib'],
-    install_requires=['requests'],
+    packages=['commonlib']
 )
+
+
