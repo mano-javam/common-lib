@@ -1,3 +1,2 @@
-
-from .rbachelper import add_resource
-from .mongohelper import test
+from .mongohelper import *
+from .rbachelper import *
