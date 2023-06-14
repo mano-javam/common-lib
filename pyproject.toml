@@ -40,7 +40,8 @@ test = [
 source = ["src"]
 
 [tool.flit.module]
-name = "commonlib"
+name = "common_lib"
+
 [tool.pylint]
 max-line-length = 88
 disable = [
