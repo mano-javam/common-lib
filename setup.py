@@ -16,6 +16,6 @@ setuptools.setup(
         "Bug Tracker": "https://bitbucket-eng-sjc1.cisco.com/bitbucket/projects/CF-BPA/repos/common-python-library"
     },
     license='CISCO',
-    packages=['common-libs'],
+    packages=['common-lib'],
     install_requires=['requests'],
 )
