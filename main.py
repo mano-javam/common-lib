@@ -1,8 +1,11 @@
-from commonlib.helpers.rbackhelper import get_resource_byid, add_resource
+import commonlib
+from commonlib import helpers
+from commonlib import functions
 
 
 def test():
-    add_resource()
+    functions.test()
+
 
 if __name__ == '__main__':
     test()
