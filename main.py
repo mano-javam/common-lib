@@ -1,5 +1,3 @@
-import src
-
 def test():
     print("Testing")
 
