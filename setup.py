@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="common-lib",
+    name="commonlib",
     version="0.0.1",
     author="mumahade",
     author_email="mumahade@cisco.com",
@@ -16,6 +16,6 @@ setuptools.setup(
         "Bug Tracker": "https://bitbucket-eng-sjc1.cisco.com/bitbucket/projects/CF-BPA/repos/common-python-library"
     },
     license='CISCO',
-    packages=['common-lib'],
+    packages=['commonlib'],
     install_requires=['requests'],
 )
