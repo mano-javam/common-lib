@@ -1,3 +1,4 @@
-def test():
-    print("Testing of package working fine")
-
+class StringFormatter:
+    @classmethod
+    def test_method(cls) -> None:
+        print("Hello World")
