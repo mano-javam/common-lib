@@ -1,10 +1,7 @@
 import commonlib
-from commonlib import helpers
-from commonlib import functions
-
 
 def test():
-    functions.test()
+    print("Testing")
 
 
 if __name__ == '__main__':
